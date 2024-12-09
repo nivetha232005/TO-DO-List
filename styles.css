@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn.pixabay.com/photo/2018/01/12/14/24/night-3078326_1280.jpg');
+    background-size: cover; 
+    background-position: center; 
+    margin: 40px;
+    padding: 200px;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#addTaskBtn {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#addTaskBtn:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+button.remove {
+    margin-left: auto;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+button.remove:hover {
+    background-color: #e53935;
+}
